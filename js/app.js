@@ -144,7 +144,7 @@ $(document).ready(function(){
           
           var col = ["#3fd316","#0dd2ef","#ff0000","#3fd316","#0dd2ef","#ffffff","#3fd316","#0dd2ef","#ff0000","#3fd316"]; 
           // 随机颜色
-          var colors = parseInt(Math.random() * (x - y + 1) + y) * 20;
+          var colors = parseInt(Math.random() * (x - y + 1) + y);
           // 随机高度
           var rand = parseInt(Math.random() * (x - y + 1) + y) * 15;
           // 随机速度
