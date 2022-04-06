@@ -17,7 +17,7 @@ $(document).ready(function(){
     var times = "<div class='times'></div>";
     $(".date").before(times);
 
-    //春节倒计时
+    //倒计时
     var starttime = new Date("2022/6/7");
     setInterval(function () {
         var nowtime = new Date();
