@@ -125,14 +125,14 @@ $(document).ready(function(){
     });
 
 
-    var mess = "<span>没想到高考马上就要到了</span><span class='B-span2'>祝你高考必胜，金榜题名！</span><span>经历你人生最大的一次考验，不要紧张，相信你能行。</span><span>把自己正常的水平发挥出来就好了。</span><span>用一颗平常心去轻松面对。</span><span>相信你会考出自己理想的成绩的。</span><span>相信自己，你是最棒的。</span><span>我在这里支持你，为你祝福。</span><span>祝你旗开得胜，一鸣惊人</span><span>高考高考，心态要好</span><span>保持冷静，基础打好</span><span>莫要烦躁，开开心心</span><span>早睡早起，精神十足</span><span>考上大学，实现梦想</span><span>相信自己，一定最好</span><span>好好学习</span><span>!!!!</span>";
+    var mess = "<span>没想到高考马上就要到了</span><span class='B-span2'>祝你高考必胜，金榜题名！</span><span>重本在等你!!!</span><span>加油加油！！！</span><span>谢!!!!!欣!!!!!雨</span><span>经历你人生最大的一次考验，不要紧张，相信你能行。</span><span>把自己正常的水平发挥出来就好了。</span><span>用一颗平常心去轻松面对。</span><span>相信你会考出自己理想的成绩的。</span><span>相信自己，你是最棒的。</span><span>我在这里支持你，为你祝福。</span><span>祝你旗开得胜，一鸣惊人</span><span>高考高考，心态要好</span><span>保持冷静，基础打好</span><span>莫要烦躁，开开心心</span><span>早睡早起，精神十足</span><span>考上大学，实现梦想</span><span>相信自己，一定最好</span><span>好好学习</span><span>!!!!</span>";
     $(".Barrage").append(mess);
 
     $(".buts").click(function(){
         var mes = $(".van-field__control").val();
         if(!mes){
           // alert("你还没输入内容呢!")
-          var Tipss = "<div class='Tipss'>孙子!您还没输入内容呢</div>";
+          var Tipss = "<div class='Tipss'>孙子!还没输入内容呢</div>";
           $("body").append(Tipss);
           setTimeout(function(){
             $(".Tipss").remove();
@@ -160,7 +160,7 @@ $(document).ready(function(){
           
           $(".Barrage").append(spans);
 
-          var Tips = "<div class='Tips'>恭喜你智商还够用(发送成功)</div>";
+          var Tips = "<div class='Tips'>恭喜你智商还够用,发送成功!!!</div>";
           $("body").append(Tips);
           setTimeout(function(){
             $(".Tips").remove();
